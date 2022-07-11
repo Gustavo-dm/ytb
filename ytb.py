@@ -4,8 +4,10 @@ import os
 import moviepy.editor as mp
 import re
 
-playlist = Playlist("https://www.youtube.com/playlist?list=PLhwjHAu_j8IgETyMsoCs4OH7aWFY2e5JG")
-folder = "C:/Users/Pichau/Desktop/ytb/here"
+#Playlist url
+playlist = Playlist(")
+#folder where te downloaded songs will be stored
+folder = ""
 
 #prints each video url, which is the same as iterating through playlist.video_urls
 for url in playlist:
